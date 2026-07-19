@@ -1,0 +1,64 @@
+{
+  "eserler": [
+    {
+      "slug": "kafamda-bir-tuhaflik",
+      "ad": "Kafamda Bir Tuhaflık",
+      "yazar": "Orhan Pamuk",
+      "tur": "Roman",
+      "dil": "Ana dil (Türkçe)",
+      "yil": 2014,
+      "renk": "#E8B923",
+      "ozet": "Mevlut Karataş'ın 1969'da Konya'dan İstanbul'a gelişiyle başlayan, kırk yılı aşkın bir süre boyunca boza satarak kentte tutunma mücadelesini anlatan roman. Mevlut'un kişisel hikâyesi üzerinden İstanbul'un gecekondulardan gökdelenlere uzanan dönüşümü, göç, aidiyet ve şehirle kurulan bağ işlenir.",
+      "notebooklm": "",
+      "durum": "taslak"
+    },
+    {
+      "slug": "sifir-noktasindaki-kadin",
+      "ad": "Sıfır Noktasındaki Kadın",
+      "yazar": "Neval El Seddavi",
+      "tur": "Roman (çeviri)",
+      "dil": "Çeviri (Arapça)",
+      "yil": 1975,
+      "renk": "#B33951",
+      "ozet": "İdam mahkûmu Firdevs'in, kendisini ziyaret eden psikiyatra hayatını anlattığı çerçeve anlatı. Mısır'da bir kadının çocukluktan itibaren maruz kaldığı şiddet, sömürü ve baskı zinciri üzerinden ataerkil düzenin ve iktidar ilişkilerinin sarsıcı bir eleştirisi.",
+      "notebooklm": "",
+      "durum": "taslak"
+    },
+    {
+      "slug": "kagni-ses-esirler",
+      "ad": "Kağnı, Ses, Esirler",
+      "yazar": "Sabahattin Ali",
+      "tur": "Öykü + Oyun",
+      "dil": "Ana dil (Türkçe)",
+      "yil": 1936,
+      "renk": "#5B7553",
+      "ozet": "Sabahattin Ali'nin Anadolu insanının yoksulluğunu, adaletsizlik karşısındaki çaresizliğini ve ezilmişliğini yalın bir gerçekçilikle işlediği öyküler. Kağnı'da oğlunu kaybeden bir ananın adalet yolculuğu, diğer metinlerde taşranın sessiz dramları anlatılır.",
+      "notebooklm": "",
+      "durum": "taslak"
+    },
+    {
+      "slug": "aynalar",
+      "ad": "Aynalar: Neredeyse Evrensel Bir Tarih",
+      "yazar": "Eduardo Galeano",
+      "tur": "Kısa anlatılar (çeviri)",
+      "dil": "Çeviri (İspanyolca)",
+      "yil": 2008,
+      "renk": "#3E6990",
+      "ozet": "Galeano'nun yüzlerce kısa parçadan oluşan, resmi tarihin dışladığı sesleri — kadınları, yerlileri, köleleri, ezilenleri — merkeze alan alternatif dünya tarihi. Her parça ironi ve şiirsel yoğunlukla kurulmuş bağımsız bir metindir.",
+      "notebooklm": "https://notebooklm.google.com/notebook/DEGISTIR",
+      "durum": "taslak"
+    },
+    {
+      "slug": "tante-rosa",
+      "ad": "Tante Rosa",
+      "yazar": "Sevgi Soysal",
+      "tur": "Roman / öykü halkası",
+      "dil": "Ana dil (Türkçe)",
+      "yil": 1968,
+      "renk": "#C1666B",
+      "ozet": "Toplumun kadına biçtiği rollere sığmayan Tante Rosa'nın evliliklerden hayal kırıklıklarına savrulan hayatını ironik ve parçalı bir kurguyla anlatan metin. Kadının özgürlük arayışı ile toplumsal yargı arasındaki çatışma merkezdedir.",
+      "notebooklm": "",
+      "durum": "taslak"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Telifli kaynak dosyaları GitHub'a yüklenmez
+*.zip
+kitaplar/
+
+.DS_Store
+.claude/settings.local.json
