@@ -1,0 +1,74 @@
+{
+  "eserler": [
+    {
+      "slug": "kafamda-bir-tuhaflik",
+      "ad": "Kafamda Bir Tuhaflık",
+      "yazar": "Orhan Pamuk",
+      "tur": "Roman",
+      "dil": "Ana dil (Türkçe)",
+      "yil": 2014,
+      "renk": "#E8B923",
+      "emoji": "😵‍💫",
+      "ozet": "Mevlut Karataş'ın 1969'da Konya'dan İstanbul'a gelişiyle başlayan, kırk yılı aşkın bir süre boyunca boza satarak kentte tutunma mücadelesini anlatan roman. Mevlut'un kişisel hikâyesi üzerinden İstanbul'un gecekondulardan gökdelenlere uzanan dönüşümü, göç, aidiyet ve şehirle kurulan bağ işlenir.",
+      "notebooklm": "https://notebooklm.google.com/notebook/e123e39e-5894-4365-a0b5-15ab24af2145",
+      "durum": "taslak",
+      "gorsel": "img/kafamda-bir-tuhaflik.jpg"
+    },
+    {
+      "slug": "sifir-noktasindaki-kadin",
+      "ad": "Sıfır Noktasındaki Kadın",
+      "yazar": "Neval El Seddavi",
+      "tur": "Roman (çeviri)",
+      "dil": "Çeviri (Arapça)",
+      "yil": 1975,
+      "renk": "#B33951",
+      "emoji": "👁️",
+      "ozet": "İdam mahkûmu Firdevs'in, kendisini ziyaret eden psikiyatra hayatını anlattığı çerçeve anlatı. Mısır'da bir kadının çocukluktan itibaren maruz kaldığı şiddet, sömürü ve baskı zinciri üzerinden ataerkil düzenin ve iktidar ilişkilerinin sarsıcı bir eleştirisi.",
+      "notebooklm": "https://notebooklm.google.com/notebook/e4a6063d-92df-4759-a6f6-66095e78ed9c",
+      "durum": "taslak",
+      "gorsel": "img/sifir-noktasindaki-kadin.jpg"
+    },
+    {
+      "slug": "kagni-ses-esirler",
+      "ad": "Kağnı, Ses, Esirler",
+      "yazar": "Sabahattin Ali",
+      "tur": "Öykü + Oyun",
+      "dil": "Ana dil (Türkçe)",
+      "yil": 1936,
+      "renk": "#5B7553",
+      "emoji": "🗺️",
+      "ozet": "Sabahattin Ali'nin Anadolu insanının yoksulluğunu, adaletsizlik karşısındaki çaresizliğini ve ezilmişliğini yalın bir gerçekçilikle işlediği öyküler. Kağnı'da oğlunu kaybeden bir ananın adalet yolculuğu, diğer metinlerde taşranın sessiz dramları anlatılır.",
+      "notebooklm": "https://notebooklm.google.com/notebook/9985301b-170e-47c5-92ef-1d9aa37a2c97",
+      "durum": "taslak",
+      "gorsel": "img/kagni-ses-esirler.jpg"
+    },
+    {
+      "slug": "aynalar",
+      "ad": "Aynalar: Neredeyse Evrensel Bir Tarih",
+      "yazar": "Eduardo Galeano",
+      "tur": "Kısa anlatılar (çeviri)",
+      "dil": "Çeviri (İspanyolca)",
+      "yil": 2008,
+      "renk": "#3E6990",
+      "emoji": "🪞",
+      "ozet": "Galeano'nun yüzlerce kısa parçadan oluşan, resmi tarihin dışladığı sesleri — kadınları, yerlileri, köleleri, ezilenleri — merkeze alan alternatif dünya tarihi. Her parça ironi ve şiirsel yoğunlukla kurulmuş bağımsız bir metindir.",
+      "notebooklm": "https://notebooklm.google.com/notebook/9b4d698b-7039-4cf1-9452-03cc8b3c4890",
+      "durum": "taslak",
+      "gorsel": "img/aynalar.jpg"
+    },
+    {
+      "slug": "tante-rosa",
+      "ad": "Tante Rosa",
+      "yazar": "Sevgi Soysal",
+      "tur": "Roman / öykü halkası",
+      "dil": "Ana dil (Türkçe)",
+      "yil": 1968,
+      "renk": "#C1666B",
+      "emoji": "🌹",
+      "ozet": "Toplumun kadına biçtiği rollere sığmayan Tante Rosa'nın evliliklerden hayal kırıklıklarına savrulan hayatını ironik ve parçalı bir kurguyla anlatan metin. Kadının özgürlük arayışı ile toplumsal yargı arasındaki çatışma merkezdedir.",
+      "notebooklm": "https://notebooklm.google.com/notebook/89c8a520-790f-4b9e-87f2-a56e69d546ac",
+      "durum": "taslak",
+      "gorsel": "img/tante-rosa.jpg"
+    }
+  ]
+}
