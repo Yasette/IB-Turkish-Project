@@ -1,6 +1,0 @@
-{
-  "duzeltmeler": [
-    { "hata": "\"şey yapıyor yazar burada\"", "dogru": "Tekniğin adını söyle: \"Yazar burada ironik tezat tekniğini kullanıyor.\"", "kaynak": "Mock feedback" },
-    { "hata": "Pasajı özetleyerek anlatmak", "dogru": "Özet en fazla bir cümle; kalan süre teknik + işlev analizine.", "kaynak": "IO rehberi" }
-  ]
-}
