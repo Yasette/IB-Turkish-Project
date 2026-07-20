@@ -9,7 +9,8 @@
       "yil": 2014,
       "renk": "#E8B923",
       "ozet": "Mevlut Karataş'ın 1969'da Konya'dan İstanbul'a gelişiyle başlayan, kırk yılı aşkın bir süre boyunca boza satarak kentte tutunma mücadelesini anlatan roman. Mevlut'un kişisel hikâyesi üzerinden İstanbul'un gecekondulardan gökdelenlere uzanan dönüşümü, göç, aidiyet ve şehirle kurulan bağ işlenir.",
-      "notebooklm": "",
+      "gorsel": "gorseller/kafamda-bir-tuhaflik.jpg",
+      "notebooklm": "https://notebooklm.google.com/notebook/e123e39e-5894-4365-a0b5-15ab24af2145",
       "durum": "taslak"
     },
     {
@@ -21,7 +22,8 @@
       "yil": 1975,
       "renk": "#B33951",
       "ozet": "İdam mahkûmu Firdevs'in, kendisini ziyaret eden psikiyatra hayatını anlattığı çerçeve anlatı. Mısır'da bir kadının çocukluktan itibaren maruz kaldığı şiddet, sömürü ve baskı zinciri üzerinden ataerkil düzenin ve iktidar ilişkilerinin sarsıcı bir eleştirisi.",
-      "notebooklm": "",
+      "gorsel": "gorseller/sifir-noktasindaki-kadin.jpg",
+      "notebooklm": "https://notebooklm.google.com/notebook/e4a6063d-92df-4759-a6f6-66095e78ed9c",
       "durum": "taslak"
     },
     {
@@ -33,7 +35,8 @@
       "yil": 1936,
       "renk": "#5B7553",
       "ozet": "Sabahattin Ali'nin Anadolu insanının yoksulluğunu, adaletsizlik karşısındaki çaresizliğini ve ezilmişliğini yalın bir gerçekçilikle işlediği öyküler. Kağnı'da oğlunu kaybeden bir ananın adalet yolculuğu, diğer metinlerde taşranın sessiz dramları anlatılır.",
-      "notebooklm": "",
+      "gorsel": "gorseller/kagni-ses-esirler.jpg",
+      "notebooklm": "https://notebooklm.google.com/notebook/9985301b-170e-47c5-92ef-1d9aa37a2c97",
       "durum": "taslak"
     },
     {
@@ -45,7 +48,8 @@
       "yil": 2008,
       "renk": "#3E6990",
       "ozet": "Galeano'nun yüzlerce kısa parçadan oluşan, resmi tarihin dışladığı sesleri — kadınları, yerlileri, köleleri, ezilenleri — merkeze alan alternatif dünya tarihi. Her parça ironi ve şiirsel yoğunlukla kurulmuş bağımsız bir metindir.",
-      "notebooklm": "https://notebooklm.google.com/notebook/DEGISTIR",
+      "gorsel": "gorseller/aynalar.jpg",
+      "notebooklm": "https://notebooklm.google.com/notebook/9b4d698b-7039-4cf1-9452-03cc8b3c4890",
       "durum": "taslak"
     },
     {
@@ -57,8 +61,41 @@
       "yil": 1968,
       "renk": "#C1666B",
       "ozet": "Toplumun kadına biçtiği rollere sığmayan Tante Rosa'nın evliliklerden hayal kırıklıklarına savrulan hayatını ironik ve parçalı bir kurguyla anlatan metin. Kadının özgürlük arayışı ile toplumsal yargı arasındaki çatışma merkezdedir.",
-      "notebooklm": "",
+      "gorsel": "gorseller/tante-rosa.jpg",
+      "notebooklm": "https://notebooklm.google.com/notebook/89c8a520-790f-4b9e-87f2-a56e69d546ac",
       "durum": "taslak"
+    }
+  ],
+  "defterler": [
+    {
+      "ad": "Paper 1 — Metin İnceleme",
+      "aciklama": "Görülmemiş metin analizi: metin türleri, yönlendirici soru, yapı.",
+      "url": "https://notebooklm.google.com/notebook/10ce8b3c-6aa1-4b2f-add3-6f650d1fc726",
+      "sayfa": "ana"
+    },
+    {
+      "ad": "Paper 2 — Karşılaştırmalı Deneme",
+      "aciklama": "İki eser üzerinden karşılaştırmalı yazma.",
+      "url": "",
+      "sayfa": "ana"
+    },
+    {
+      "ad": "Anlatım Teknikleri",
+      "aciklama": "Tekniklerin tanımları, örnekleri ve işlevleri.",
+      "url": "https://notebooklm.google.com/notebook/10ce8b3c-6aa1-4b2f-add3-6f650d1fc726",
+      "sayfa": "teknik"
+    },
+    {
+      "ad": "IO Hazırlık",
+      "aciklama": "Sözlü sunum planı, pasaj seçimi, olası sorular.",
+      "url": "https://notebooklm.google.com/notebook/9728cb3a-a19d-4883-bf34-c389367a5fb2",
+      "sayfa": "io"
+    },
+    {
+      "ad": "Küresel Sorun & Araştırma Alanları",
+      "aciklama": "Küresel sorun formülasyonu ve beş araştırma alanı.",
+      "url": "https://notebooklm.google.com/notebook/067ad053-b1b5-4155-8cb3-9a5b7494226c",
+      "sayfa": "io"
     }
   ]
 }

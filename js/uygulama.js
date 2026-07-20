@@ -62,6 +62,26 @@ function girisHTML(g) {
   </article>`;
 }
 
+/* NotebookLM defterleri — hangi sayfada gösterileceği data'daki "sayfa" alanına bağlı */
+async function defterleriCiz(sayfa) {
+  const kap = document.getElementById("defterler");
+  if (!kap) return;
+  const { defterler = [] } = await jsonGetir("eserler.json");
+  const liste = defterler.filter((d) => d.sayfa === sayfa);
+  if (!liste.length) return;
+  kap.innerHTML = `
+    <h2>NotebookLM defterleri</h2>
+    <p class="not">Alıntı gereken, metnin içine inen sorular için. Sitedeki özetler yerine kaynağın kendisiyle konuşur.</p>
+    <div class="defter-liste">
+      ${liste.map((d) => d.url
+        ? `<a class="defter" href="${e(d.url)}" target="_blank" rel="noopener">
+             <b>${e(d.ad)}</b><span>${e(d.aciklama)}</span></a>`
+        : `<span class="defter defter--bos">
+             <b>${e(d.ad)}</b><span>${e(d.aciklama)}</span><em>henüz hazırlanmadı</em></span>`
+      ).join("")}
+    </div>`;
+}
+
 /* ---------- ANA SAYFA ---------- */
 async function anaSayfa() {
   const kartKap = document.getElementById("kartlar");
@@ -80,8 +100,14 @@ async function anaSayfa() {
     .map((es) => {
       const g = analizler[es.slug];
       const say = (t) => g.filter((x) => x.tip === t).length;
+      // görsel dosyası yoksa şerit tamamen kaldırılır, kart sade haliyle görünür
+      const gorsel = es.gorsel
+        ? `<img class="kart-gorsel" src="${e(es.gorsel)}" alt="" loading="lazy"
+             onerror="this.closest('.kart').classList.remove('kart--gorselli'); this.remove();">`
+        : "";
       return `
-      <a class="kart" style="--k-renk:${e(es.renk)}" href="eser.html?e=${e(es.slug)}">
+      <a class="kart ${es.gorsel ? "kart--gorselli" : ""}" style="--k-renk:${e(es.renk)}" href="eser.html?e=${e(es.slug)}">
+        ${gorsel}
         <h3>${e(es.ad)}</h3>
         <span class="yazar">${e(es.yazar)} · ${e(es.dil)}</span>
         <p>${e(es.ozet).slice(0, 150)}…</p>
@@ -110,6 +136,8 @@ async function anaSayfa() {
         </a>`).join("")
       : `<div class="bos">"${e(arama.value)}" için sonuç yok — farklı bir sözcük dene.</div>`;
   });
+
+  await defterleriCiz("ana");
 }
 
 /* ---------- ESER SAYFASI ---------- */
@@ -127,7 +155,7 @@ async function eserSayfa() {
     <p class="ozet">${e(es.ozet)}</p>
     <div class="eser-arac">
       ${es.notebooklm && !es.notebooklm.includes("DEGISTIR")
-        ? `<a class="dugme" href="${e(es.notebooklm)}" target="_blank" rel="noopener">🔎 NotebookLM'de derinleş</a>`
+        ? `<a class="dugme" href="${e(es.notebooklm)}" target="_blank" rel="noopener">NotebookLM'de derinleş</a>`
         : `<span class="dugme dugme--sade" title="config: data/eserler.json → notebooklm">NotebookLM linki eklenecek</span>`}
       <a class="dugme dugme--sade" href="index.html">← Tüm eserler</a>
     </div>`;
@@ -192,6 +220,12 @@ async function teknikSayfa() {
   };
   kutu.addEventListener("input", ciz);
   ciz();
+  await defterleriCiz("teknik");
+}
+
+/* ---------- IO REHBERİ ---------- */
+async function ioSayfa() {
+  await defterleriCiz("io");
 }
 
 /* ---------- DÜZELTMELER ---------- */
@@ -204,6 +238,6 @@ async function duzeltmeSayfa() {
 /* sayfa yönlendirici */
 document.addEventListener("DOMContentLoaded", () => {
   const sayfa = document.body.dataset.sayfa;
-  ({ ana: anaSayfa, eser: eserSayfa, teknik: teknikSayfa, duzeltme: duzeltmeSayfa }[sayfa] || (() => {}))()
+  ({ ana: anaSayfa, eser: eserSayfa, teknik: teknikSayfa, io: ioSayfa, duzeltme: duzeltmeSayfa }[sayfa] || (() => {}))()
     .catch?.((h) => console.error(h));
 });

@@ -89,11 +89,34 @@ nav.menu a.aktif span { border-bottom: 3px solid var(--fosfor); }
   background: var(--k-renk, var(--fosfor-koyu)); border-radius: 0 4px 4px 0;
 }
 .kart:hover, .kart:focus-visible { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(35,40,59,.09); }
-.kart .emoji { font-size: 1.5rem; }
 .kart h3 { font-family: var(--font-baslik); font-size: 1.22rem; font-weight: 800; line-height: 1.25; }
+
+/* görselli kart: üstte fotoğraf şeridi, metin okunur kalsın diye kağıt zeminde durur */
+.kart--gorselli { padding-top: 0; overflow: hidden; }
+.kart-gorsel {
+  order: -1; width: calc(100% + 40px); height: 130px; margin: 0 -20px 12px;
+  object-fit: cover; display: block; border-bottom: 1px solid var(--cizgi);
+}
+.kart--gorselli::before { top: 130px; }
 .kart .yazar { font-family: var(--font-etiket); font-size: .8rem; color: var(--murekkep-soluk); }
 .kart p { font-size: .93rem; color: var(--murekkep-soluk); }
 .kart .say { margin-top: auto; font-family: var(--font-etiket); font-size: .76rem; color: var(--murekkep-soluk); padding-top: 8px; }
+
+/* ---- NotebookLM defterleri ---- */
+.defterler { padding: 8px 0 60px; }
+.defterler h2 { font-family: var(--font-baslik); font-size: 1.35rem; font-weight: 800; }
+.defterler .not { font-size: .92rem; color: var(--murekkep-soluk); margin: 6px 0 16px; max-width: 62ch; }
+.defter-liste { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.defter {
+  display: flex; flex-direction: column; gap: 5px; text-decoration: none; color: inherit;
+  background: #fff; border: 1px solid var(--cizgi); border-left: 4px solid var(--fosfor-koyu);
+  border-radius: var(--radius); padding: 14px 16px;
+}
+.defter b { font-family: var(--font-baslik); font-size: 1rem; }
+.defter span { font-size: .87rem; color: var(--murekkep-soluk); }
+.defter em { font-family: var(--font-etiket); font-size: .74rem; color: var(--murekkep-soluk); font-style: normal; }
+.defter:hover, .defter:focus-visible { background: var(--kagit-koyu); border-left-color: var(--fosfor); }
+.defter--bos { opacity: .55; border-left-color: var(--cizgi); }
 
 /* ---- hızlı linkler ---- */
 .hizli { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
