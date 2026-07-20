@@ -1,0 +1,40 @@
+{
+  "bicimler": [
+    { "ad": "Betimleyici", "aciklama": "Mekân, kişi, eşya gibi unsurların görsel ve duyusal ayrıntılarla aktarılması" },
+    { "ad": "Öyküleyici", "aciklama": "Olayların belirli bir zaman dizgesi içinde aktarılması" },
+    { "ad": "Açıklayıcı", "aciklama": "Bilgi vermeyi amaçlayan, nesnel ve bilgilendirici aktarım" },
+    { "ad": "Tartışmacı", "aciklama": "Bir savı ya da görüşü kanıtlarla destekleyerek savunan aktarım" }
+  ],
+  "teknikler": [
+    { "ad": "Diyalog / Karşılıklı Konuşma", "aciklama": "İki ya da daha fazla karakterin sözlü etkileşimi" },
+    { "ad": "İç Diyalog", "aciklama": "Kişinin kendi kendisiyle karşılıklı konuşur gibi tartışması" },
+    { "ad": "Monolog / İç Konuşma", "aciklama": "Karakterin tek başına yaptığı uzun konuşma" },
+    { "ad": "İç Çözümleme", "aciklama": "Karakterin iç dünyasının anlatıcı tarafından çözümlenmesi" },
+    { "ad": "Dramatik Sahne", "aciklama": "Olayın seyirci önünde gerçekleşiyormuş gibi sunulması" },
+    { "ad": "Sinematografik Unsurlar", "aciklama": "Film karesi etkisi, perdeye yansıtma gibi görsel-sinematik teknikler" },
+    { "ad": "Bilinç Akışı", "aciklama": "Zihnin dağınık, kopuk ve çağrışımlı aktarımı" },
+    { "ad": "Metinlerarasılık", "aciklama": "Alıntı, gönderme, atıf, anıştırma, parodi, montaj — başka metinlerle ilişki kurma" },
+    { "ad": "Yapıbozuculuk", "aciklama": "Sıkıştırılmış metin, büyük harf kullanımı, eğik yazı, heceleme, söylemi bölme" },
+    { "ad": "Üstkurmaca", "aciklama": "Metnin kendi kurmaca yapısına dikkat çekmesi (yazar olarak konuşma vb.)" },
+    { "ad": "İroni", "aciklama": "Söylenenin tersinin kastedildiği ya da gerçeklikle söylenen arasında çelişki kuran teknik" },
+    { "ad": "Simge / Sembol", "aciklama": "Bir nesnenin ya da kavramın somut anlamının ötesinde başka bir şeyi temsil etmesi" },
+    { "ad": "İsim Sembolizasyonu", "aciklama": "Karakter isimlerinin sembolik anlam taşıması" },
+    { "ad": "Renk Sembolizasyonu", "aciklama": "Renklerin sembolik işlev görmesi (kırmızı = öfke/şiddet, beyaz = saflık vb.)" },
+    { "ad": "İmge", "aciklama": "Duyusal çağrışım yaratan, zihinde resim oluşturan dil kullanımı" },
+    { "ad": "Motif", "aciklama": "Eser boyunca tekrarlanan kalıp (rüya, uyku, masal motifleri gibi geleneksel yapılar)" },
+    { "ad": "Leitmotiv (Ana Unsur)", "aciklama": "Tekrar eden bir düşünce, eylem veya görüntü — yapıyı bağlar" },
+    { "ad": "Alegori", "aciklama": "Bir kavramın somut bir hikâye/imge ile temsil edilmesi" },
+    { "ad": "Benzetme / Metafor", "aciklama": "Bir şeyin başka bir şeye benzetilerek anlatılması; metafor bağlaçsız benzetmedir" },
+    { "ad": "Doğa Unsurlarından Yararlanma", "aciklama": "Doğal öğelerin (mevsim, hava, manzara) anlam taşıyıcı olarak kullanılması" },
+    { "ad": "Özetleme", "aciklama": "Uzun bir zamanı veya olayı hızlıca aktarma" },
+    { "ad": "Listeleme", "aciklama": "Ardışık olarak sıralama — vurgu ve birikim etkisi yaratır" },
+    { "ad": "Tekrar / Yineleme", "aciklama": "Aynı sözcük, ifade veya yapının yinelenmesi" },
+    { "ad": "İleri Gönderme", "aciklama": "İleride olacak bir olaya önceden gönderme yapma" },
+    { "ad": "Sezdirme / Önseme", "aciklama": "Olayların önceden ipucu verilerek hissettirilmesi" },
+    { "ad": "Geriye Dönüş (Flashback)", "aciklama": "Geçmişteki bir ana gitme — yakın veya uzak geçmiş" },
+    { "ad": "Retorik Soru", "aciklama": "Cevap beklenmeyen, etki yaratmak için sorulan soru" },
+    { "ad": "Röportaj", "aciklama": "Soru-cevap kalıbı içinde aktarım" },
+    { "ad": "Mektup / Günlük / Anı / Otobiyografi", "aciklama": "Bu türlerin metin içinde kullanılması" },
+    { "ad": "Akademik Biçimden Yararlanma", "aciklama": "Ön söz, giriş, alt bölümler, sonuç, dipnot gibi akademik unsurların kurmacaya taşınması" }
+  ]
+}

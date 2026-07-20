@@ -1,0 +1,58 @@
+{
+  "bolumler": [
+    { "ad": "Kağnı", "not": "Oğlu öldürülen Mehmet Ali'nin anası Ayşe'nin, cesedi kağnıyla kasabaya taşıma yolculuğu." },
+    { "ad": "Ses", "not": "Anadolu'da türkü söyleyen genç Ali'nin 'keşfedilip' şehirde hayal kırıklığına uğraması." },
+    { "ad": "Esirler", "not": "Tarihsel fonda geçen oyun; esaret ve iktidar ilişkileri." }
+  ],
+  "girisler": [
+    {
+      "id": "kse-t01",
+      "tip": "tema",
+      "baslik": "Adaletsizlik ve devlet karşısında çaresizlik",
+      "yer": "Kağnı",
+      "aciklama": "Ayşe'nin jandarma/adliye karşısındaki dilsizliği: adalet mekanizması yoksul köylü için ulaşılmaz, hatta tehdit edicidir. Ağanın adı bile soruşturmaya karışmaz.",
+      "durum": "taslak"
+    },
+    {
+      "id": "kse-t02",
+      "tip": "tema",
+      "baslik": "Yoksulluk ve taşranın sessizliği",
+      "yer": "Tüm öyküler",
+      "aciklama": "Karakterler konuşmaz, konuşamaz; sessizlik hem bir karakter özelliği hem toplumsal bir durumdur. Sabahattin Ali sessizliği anlatının kendisine taşır: kısa cümleler, yalın dil.",
+      "durum": "taslak"
+    },
+    {
+      "id": "kse-t03",
+      "tip": "tema",
+      "baslik": "Sanat, emek ve sömürü",
+      "yer": "Ses",
+      "aciklama": "Ali'nin sesi şehirli aydınlar için bir 'malzeme'dir; başarısız olunca geri fırlatılır. Taşra ile şehir, hakiki sanat ile kurumsallaşmış sanat karşıtlığı.",
+      "durum": "taslak"
+    },
+    {
+      "id": "kse-k01",
+      "tip": "kuresel",
+      "baslik": "Hukuka erişim eşitsizliği",
+      "alan": "Siyaset, güç ve adalet",
+      "yer": "Kağnı",
+      "aciklama": "SNK ile karşılaştırma ekseni: sistemin ezdiği bireyin 'suçlu' konumuna itilmesi. Kağnı'da ana, SNK'da Firdevs.",
+      "durum": "taslak"
+    },
+    {
+      "id": "kse-a01",
+      "tip": "teknik",
+      "baslik": "Doğa unsurlarından yararlanma",
+      "yer": "Kağnı — yol boyu manzara ve gıcırtı",
+      "aciklama": "Kağnının gıcırtısı ve bozkırın kayıtsızlığı, ananın acısına eşlik eden (ve onu büyüten) bir ses perdesi kurar; doğa burada tanık ama kayıtsızdır.",
+      "durum": "taslak"
+    },
+    {
+      "id": "kse-a02",
+      "tip": "teknik",
+      "baslik": "Gözlemci anlatıcı ve gösterme tekniği",
+      "yer": "Tüm öyküler",
+      "aciklama": "Anlatıcı yorum yapmaz; adaletsizliği çıplak biçimde gösterir. Duygu okurda oluşur — 'acıma değil analiz' ilkesine iyi örnek.",
+      "durum": "taslak"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eser — 10 IB Türkçe</title>
+<link rel="stylesheet" href="css/stil.css">
+</head>
+<body data-sayfa="eser">
+<header class="ust"><div class="kap ust-ic">
+  <a class="logo" href="index.html">10 IB <em class="fosfor">Türkçe</em></a>
+  <nav class="menu">
+    <a class="aktif" href="index.html"><span>Eserler</span></a>
+    <a href="io.html"><span>IO Rehberi</span></a>
+    <a href="teknikler.html"><span>Anlatım Teknikleri</span></a>
+    <a href="duzeltmeler.html"><span>Düzeltmeler</span></a>
+  </nav>
+</div></header>
+
+<div id="eser-bant" class="eser-bant" hidden></div>
+<main class="kap">
+  <section id="eser-baslik" class="eser-baslik"></section>
+  <div class="uyari">⚠️ Bu sayfadaki eşleştirmeler <b>AI destekli taslaklardır</b>; birebir alıntı içermez, yer bilgileri geneldir. Sınavda kullanmadan önce kitabından ve öğretmeninden doğrula. Birebir alıntı için NotebookLM defterini kullan.</div>
+  <div id="bolumler"></div>
+
+  <div class="filtreler" id="filtreler" role="toolbar" aria-label="Tip filtresi"></div>
+  <div class="arama" style="margin-top:12px">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="eser-arama" type="search" placeholder="Bu eserde ara…" aria-label="Bu eserde ara">
+  </div>
+  <section id="girisler" class="girisler" aria-live="polite"></section>
+</main>
+
+<footer class="alt-bilgi"><div class="kap">
+  <span>Yeni giriş eklemek için: <b>data/analiz/[eser].json</b></span>
+  <span><a href="index.html" style="color:inherit">← Tüm eserler</a></span>
+</div></footer>
+<script src="js/uygulama.js"></script>
+</body>
+</html>
